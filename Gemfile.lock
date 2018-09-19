@@ -49,7 +49,7 @@ GIT
       terminal-table (~> 1.4)
 
 GIT
-  remote: https://github.com/winterbang/jekyll-aquarius.git
+  remote: https://github.com/winterbang/jekyll-aquarius
   revision: b139eb70a674b7c66d1ffcb49eb86d8d4aaad76f
   specs:
     jekyll-aquarius (0.1.6)
