@@ -1,0 +1,46 @@
+---
+layout: post
+title: "git base"
+date: 2015-06-18 11:13:48 +0800
+comments: true
+categories: git
+---
+起步
+```bash
+git init    #git初始化
+git add -A  #添加所有文件到版本控制中
+```
+远程仓库地址设置相关
+```bash
+git clone git://github.com/winterbang/projectname # 检出仓库
+git remote -v  # 查看配置中远程仓库地址
+git remote add [name] [url]  # 给远程仓库地址命名并添加到配置中
+git remote rm [name]  # 删除配置中指定的远程仓库地址
+git remote set-url --push [name] [newUrl]  # 修改配置中某仓库名称的地址
+git pull [remoteName] [localBranchName]  # 拉取指定的远程仓库到指定分支
+git push [remoteName] [localBranchName]  # 推送指定分支到指定的远程仓库
+git push [remoteName] [localBranchName]:[remoteBranchName]  # 推送本地指定分支到指定的远程分支
+```
+分支操作相关
+```bash
+git branch # 查看本地分支
+git branch -r # 查看远程分支
+git branch [name] # 创建本地分支，并不切换到新分支
+git checkout [name] # 切换分支
+git checkout -b [name] # 创建新分支并立即切换到新分支
+git branch -d [name] # 删除已经参与合并了的分支，如果想强制删除一个分支，可以使用-D选项
+git merge [name] # 将名称为[name]的分支与当前分支合并
+git push origin [name] # 创建远程分支(本地分支push到远程)
+git push origin :heads/[name] 或 $ git push origin :[name] # 删除远程分支
+```
+标签tag操作相关
+```bash
+git tag # 查看版本
+git tag [name] # 创建版本
+git tag -d [name] # 删除版本
+git push origin [name] # 创建远程版本(本地版本push到远程)
+git push origin :refs/tags/[name] # 删除远程版本
+git pull origin --tags # 合并远程仓库的tag到本地
+git push origin --tags # 上传本地tag到远程仓库
+git tag -a [name] -m 'yourMessage' # 创建带注释的tag
+```

@@ -1,0 +1,99 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: Winter's Blog
+author: winter
+email: zwtao90@gmail.com
+description: >- # 我是一个，
+  饺子只喜欢吃韭菜鸡蛋，
+  不吃动物的爪子或蹄子，
+  阴天出门不愿意带伞，
+  看到带着宠物遛弯的人总习惯性的比较下宠物和主人长得像不像，
+  完美主义严重患者换句话说就是完美的符合拖延症的人，
+  我偏好素食可奇怪的是喜欢吃肥猪肉，
+  我是一个，不我不是一个，我是两个，我是双子
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://wentao.pub" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: winterbang
+github_username:  winterbang
+
+# Build settings
+markdown: kramdown # [ maruku | rdiscount | kramdown | redcarpet ]
+kramdown:
+  input:          GFM
+  auto_ids:       true
+  auto_id_prefix: 'id-'
+  # footnote_nr:   1
+  # entity_output: as_char
+  # toc_levels:    1..6
+  # smart_quotes:  lsquo,rsquo,ldquo,rdquo
+  # use_coderay:   true
+
+  # coderay:
+  #   coderay_wrap:              div
+  #   coderay_line_numbers:      inline
+  #   coderay_line_number_start: 1
+  #   coderay_tab_width:         2
+  #   coderay_bold_every:        10
+  #   coderay_css:               style
+
+# theme: minima
+theme: jekyll-aquarius
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+# 分页
+paginate: 15
+paginate_path: "/blog/page:num/"
+links:
+  - name:         首页
+    url:          /
+    external:     false
+  - name:         游戏
+    url:          /games
+    external:     false
+  # - name:         旅游
+  #   url:          /road
+  #   external:     false
+  # - name:         归档
+  #   url:          /archives
+  #   external:     false
+  # - name:         标签
+  #   url:          /tags
+  #   external:     false
+  # - name:         关于
+  #   url:          /about
+  #   external:     false
+# ------------ CONFIGURABLE END ------------
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
+# comments: true
+comments:
+  gitalk: true
+  gitalk_clientID: 'b6f535988a0e17fc78e0'
+  gitalk_secret: '13caef053ab9bd6de025a3347d16a408dfdaa893'
+  gitalk_repo: 'winterbang.github.io'
+  gitalk_owner: 'winterbang'
+  gitalk_admin: 'winterbang'
+  distractionFreeMode: false

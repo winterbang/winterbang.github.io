@@ -1,0 +1,65 @@
+---
+layout: post
+title: "include和extend的使用"
+date: 2015-06-17 12:08:58 +0800
+comments: true
+categories: [ruby, rails]
+---
+1.在类定义中引入模块，是模块中的方法成为类的实例方法。这种情况是最常见的，直接 `include` 即可。
+
+```ruby
+module Basic
+	def add(number)
+		self + number
+	end
+end
+
+Fixnum.class_eval do
+	include Basic
+end
+
+3.add 4  #=> 7 
+```
+2.在类定义中引入模块，使模块中的方法成为类的实例方法。这种情况也是比较常见的，直接 `extend` 即可。
+
+```ruby
+module ExtendMe
+	def verbal_object_id
+		 "my object id is #{self.object_id}"
+	end
+end
+
+class Person
+	extend ExtendMe
+end
+
+Person.verbal_object_id #=> "my object id is 24339630"
+```
+
+3.有时在类定义中引入模块，既希望引入实例方法，也希望引入类方法，这时需要使用 `include` ，但是在模块中对类方法的定义有所不同，定义出现在
+
+```ruby
+module ExtendThroughInclude
+	def self.included(klass)
+		klass.extend ClassMethods
+	end
+	
+	def instance_method
+		"this is an instance method of #{self.class}"
+	end
+	
+	module ClassMethods
+		def class_method
+			"this is a method on the #{self} class"
+		end
+	end
+end
+
+class Person
+	include ExtendThroughInclude
+end
+
+Person.new.instance_method #=> "this is an instance method Person"
+Person.new.instance_method #=> "this is a method on the Person class"
+
+```

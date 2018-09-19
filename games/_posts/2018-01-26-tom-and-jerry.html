@@ -1,0 +1,134 @@
+---
+layout: game
+title:  tom and jerry
+date:   2018-01-26
+category: 游戏
+categories: games tom_and_jerry
+tags: game
+script: '/games/js/tom_and_jerry.js'
+icon: game
+cover-image: '/images/tom_and_jerry.png'
+---
+<style>
+  .ready {
+    position: absolute;
+    top:0;
+    left:0;
+    right: 0;
+    bottom:0;
+    display:flex;
+    align-items:center;
+    flex-direction:column;
+    background:rgba(0,0,0,0.3);
+    padding-top: 45%
+  }
+
+  .loading {
+    position: absolute;
+    top: 0;
+    bottom:0;
+    left:0;
+    right:0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background:rgba(0,0,0,0.3);
+    color: white;
+  }
+
+  .spinner {
+    width: 90px;
+    height: 90px;
+    text-align: center;
+
+    -webkit-animation: rotate 2.0s infinite linear;
+    animation: rotate 2.0s infinite linear;
+  }
+
+  .dot1, .dot2 {
+    width: 60%;
+    height: 60%;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    background-color: #fff;
+    border-radius: 100%;
+    -webkit-animation: bounce 2.0s infinite ease-in-out;
+    animation: bounce 2.0s infinite ease-in-out;
+    font-size: 34px;
+    line-height: 34px;
+  }
+
+  .dot2 {
+    background-color: #000;
+    top: auto;
+    bottom: 0px;
+    -webkit-animation-delay: -1.0s;
+    animation-delay: -1.0s;
+  }
+
+  @-webkit-keyframes rotate { 100% { -webkit-transform: rotate(360deg) }}
+  @keyframes rotate { 100% { transform: rotate(360deg); -webkit-transform: rotate(360deg) }}
+
+  @-webkit-keyframes bounce {
+    0%, 100% { -webkit-transform: scale(0.0) }
+    50% { -webkit-transform: scale(1.0) }
+  }
+
+  @keyframes bounce {
+    0%, 100% {
+      transform: scale(0.0);
+      -webkit-transform: scale(0.0);
+    } 50% {
+      transform: scale(1.0);
+      -webkit-transform: scale(1.0);
+    }
+  }
+
+  .bg-danger {
+    position: fixed;
+    top: -40;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 901;
+    transition: top 1s linear;
+  }
+  .form-control {
+    height: 45px;
+    font-size: 18px;
+  }
+</style>
+
+<button class="btn-enter" id="ck-enter">打开游戏</button>
+<div id="game-wrap" style="display:none">
+  <span class="btn-close" id="ck-close">X</span>
+  <canvas id="canvas"></canvas>
+  <div class="ready" >
+    <p class="bg-danger"> 错误提示</p>
+    <form class="form-inline">
+      <div class="form-group">
+        <input type="text" name="room-no" class="form-control" value="" placeholder="输入房间号">
+      </div>
+      <button class="btn btn-primary" type="button" name="新建房间" id="ck-newroom">新建房间</button>
+      <button class="btn btn-success" type="button" name="进入房间" id="ck-intoroom" style="float:right;">进入房间</button>
+    </form>
+  </div>
+  <div class="loading" style="display: none" >
+    <div class="spinner" style="">
+      <div class="dot1">🐱</div>
+      <div class="dot2">🐭</div>
+    </div>
+    <p class="loading-text">正在进入房间...</p>
+  </div>
+</div>
+<p class="text-warning">目前该游戏仅支持移动端，如果您是在电脑上打开请尝试用浏览器的手机模拟状态进行操作</p>
+<blockquote>
+  <h3><em>猫捉老鼠</em> 游戏玩法</h3>
+  <p>1.猫和老鼠都只能一步一步走；</p>
+  <p>2.猫和老鼠之间如果有且仅有一个空位，则猫可以把老鼠吃掉，并移动到老鼠所在位置，最终把老鼠吃完获胜；</p>
+  <p>3.老鼠以数量的优势可以把猫堵住，最终把猫堵得无路可走则获胜；</p>
+  <p>4.如果没有房间号可以新建房间，新建房间的玩家是猫，并且游戏开始时由猫先走；</p>
+  <p>5.如果有房间号可以输入房间号进入房间，进入房间后默认为老鼠，要等猫先走后才可以走。</p>
+</blockquote>
