@@ -49,8 +49,8 @@ kramdown:
   #   coderay_bold_every:        10
   #   coderay_css:               style
 
-theme: minima
-# theme: jekyll-aquarius
+# theme: minima
+theme: jekyll-aquarius
 plugins:
   - jekyll-feed
   - jekyll-paginate
