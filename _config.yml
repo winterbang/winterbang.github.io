@@ -29,7 +29,6 @@ url: "http://wentao.pub" # the base hostname & protocol for your site, e.g. http
 twitter_username: winterbang
 github_username:  winterbang
 
-source: ./
 # Build settings
 markdown: kramdown # [ maruku | rdiscount | kramdown | redcarpet ]
 kramdown:
