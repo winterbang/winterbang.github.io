@@ -50,10 +50,10 @@ GIT
 
 GIT
   remote: https://github.com/winterbang/jekyll-aquarius.git
-  revision: 1cd8909703503fdfc6fc185aca7b0ad78134b604
+  revision: 90139c05d5cb1f9822056d09c288704ad0ee4478
   specs:
-    jekyll-aquarius (0.1.4)
-      jekyll
+    jekyll-aquarius (0.1.5)
+      jekyll (~> 3.5)
       jekyll-feed (~> 0.9)
       jekyll-seo-tag (~> 2.1)
 
