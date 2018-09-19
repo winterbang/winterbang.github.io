@@ -263,6 +263,7 @@ DEPENDENCIES
   jekyll-feed
   jekyll-paginate
   kramdown
+  minima (~> 2.0)
   tzinfo-data
 
 BUNDLED WITH
