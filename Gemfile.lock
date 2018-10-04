@@ -1,4 +1,13 @@
 GIT
+  remote: git@github.com:winterbang/theme_test.git
+  revision: 280deb6d21f9d91f29af928b9134d8b78f05046e
+  specs:
+    minima (2.5.0)
+      jekyll (~> 3.5)
+      jekyll-feed (~> 0.9)
+      jekyll-seo-tag (~> 2.1)
+
+GIT
   remote: https://github.com/github/pages-gem
   revision: 5bc41a93ded7b896012b8a517deb474e084f3428
   specs:
@@ -50,7 +59,7 @@ GIT
 
 GIT
   remote: https://github.com/winterbang/jekyll-aquarius
-  revision: b139eb70a674b7c66d1ffcb49eb86d8d4aaad76f
+  revision: 01608ec41fc89bbb2401100ebfaf8b0c5df82f74
   specs:
     jekyll-aquarius (0.1.6)
       jekyll (~> 3.5)
@@ -84,7 +93,7 @@ GEM
       ffi (>= 1.3.0)
     eventmachine (1.2.7)
     execjs (2.7.0)
-    faraday (0.15.2)
+    faraday (0.15.3)
       multipart-post (>= 1.2, < 3)
     ffi (1.9.25)
     forwardable-extended (2.6.0)
@@ -215,10 +224,6 @@ GEM
       ruby_dep (~> 1.2)
     mercenary (0.3.6)
     mini_portile2 (2.3.0)
-    minima (2.5.0)
-      jekyll (~> 3.5)
-      jekyll-feed (~> 0.9)
-      jekyll-seo-tag (~> 2.1)
     minitest (5.11.3)
     multipart-post (2.0.0)
     nokogiri (1.8.4)
@@ -237,7 +242,7 @@ GEM
     ruby_dep (1.5.0)
     rubyzip (1.2.2)
     safe_yaml (1.0.4)
-    sass (3.5.7)
+    sass (3.6.0)
       sass-listen (~> 4.0.0)
     sass-listen (4.0.0)
       rb-fsevent (~> 0.9, >= 0.9.4)
@@ -265,7 +270,7 @@ DEPENDENCIES
   jekyll-feed
   jekyll-paginate
   kramdown
-  minima (~> 2.0)
+  minima!
   tzinfo-data
 
 BUNDLED WITH
