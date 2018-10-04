@@ -50,7 +50,7 @@ kramdown:
   #   coderay_css:               style
 
 # theme: minima
-remote_theme: winter/jekyll-aquarius
+remote_theme: winterbang/jekyll-aquarius
 plugins:
   - jekyll-feed
   - jekyll-paginate
