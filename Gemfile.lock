@@ -1,6 +1,6 @@
 GIT
   remote: git@github.com:winterbang/theme_test.git
-  revision: 280deb6d21f9d91f29af928b9134d8b78f05046e
+  revision: 6f77a6b6c27feeafdf1ca6d8ca76e0984f809b5d
   specs:
     minima (2.5.0)
       jekyll (~> 3.5)
