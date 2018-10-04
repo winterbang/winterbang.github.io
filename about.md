@@ -18,7 +18,7 @@ redirect_from:
 
 又换了个博客主题 这次终于看见不那么难受了
 
-博客使用Jekyll搭建托管在GitHub目前使用主题后期[已开源](https://github.com/Liberxue/liberxue.github.io)
+博客使用Jekyll搭建托管在GitHub目前使用主题[已开源](https://github.com/winterbang/jekyll-aquarius)
 
 <iframe src="http://ghbtns.com/github-btn.html?user=winterbang&repo=winterbang.github.io&type=fork&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="95" height="20"></iframe>
 
@@ -183,7 +183,7 @@ ID|项 目 名 称| 开 发 语 言| 功 能 简 述| 框架| 是否上线|
 
 你可以通过以下几种方式联系到我。
 
-* [提交Issues](https://github.com/Liberxue/liberxue.github.io/issues)
+* [提交Issues](https://github.com/winterbang/winterbang.github.io/issues)
 
 * [发邮件](mailto:zwtao90@gmail.com)
 
