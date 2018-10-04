@@ -1,13 +1,4 @@
 GIT
-  remote: git@github.com:winterbang/theme_test.git
-  revision: 6f77a6b6c27feeafdf1ca6d8ca76e0984f809b5d
-  specs:
-    minima (2.5.0)
-      jekyll (~> 3.5)
-      jekyll-feed (~> 0.9)
-      jekyll-seo-tag (~> 2.1)
-
-GIT
   remote: https://github.com/github/pages-gem
   revision: 5bc41a93ded7b896012b8a517deb474e084f3428
   specs:
@@ -56,6 +47,15 @@ GIT
       nokogiri (>= 1.8.2, < 2.0)
       rouge (= 2.2.1)
       terminal-table (~> 1.4)
+
+GIT
+  remote: https://github.com/winterbang/jekyll-aquarius
+  revision: 01608ec41fc89bbb2401100ebfaf8b0c5df82f74
+  specs:
+    jekyll-aquarius (0.1.6)
+      jekyll (~> 3.5)
+      jekyll-feed (~> 0.9)
+      jekyll-seo-tag (~> 2.1)
 
 GEM
   remote: https://rubygems.org/
@@ -215,6 +215,10 @@ GEM
       ruby_dep (~> 1.2)
     mercenary (0.3.6)
     mini_portile2 (2.3.0)
+    minima (2.5.0)
+      jekyll (~> 3.5)
+      jekyll-feed (~> 0.9)
+      jekyll-seo-tag (~> 2.1)
     minitest (5.11.3)
     multipart-post (2.0.0)
     nokogiri (1.8.4)
@@ -256,11 +260,11 @@ PLATFORMS
 DEPENDENCIES
   github-pages!
   jekyll
+  jekyll-aquarius!
   jekyll-compose
   jekyll-feed
   jekyll-paginate
   kramdown
-  minima!
   tzinfo-data
 
 BUNDLED WITH
