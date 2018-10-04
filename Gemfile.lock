@@ -57,15 +57,6 @@ GIT
       rouge (= 2.2.1)
       terminal-table (~> 1.4)
 
-GIT
-  remote: https://github.com/winterbang/jekyll-aquarius
-  revision: 01608ec41fc89bbb2401100ebfaf8b0c5df82f74
-  specs:
-    jekyll-aquarius (0.1.6)
-      jekyll (~> 3.5)
-      jekyll-feed (~> 0.9)
-      jekyll-seo-tag (~> 2.1)
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -265,7 +256,6 @@ PLATFORMS
 DEPENDENCIES
   github-pages!
   jekyll
-  jekyll-aquarius!
   jekyll-compose
   jekyll-feed
   jekyll-paginate
