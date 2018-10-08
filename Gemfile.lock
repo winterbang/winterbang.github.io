@@ -50,9 +50,9 @@ GIT
 
 GIT
   remote: https://github.com/winterbang/jekyll-aquarius
-  revision: e98155689b60230c8144fd7440cb739f9da2350a
+  revision: 5475c9329603c9e6d9546691497ec421bead0105
   specs:
-    jekyll-aquarius (0.1.6)
+    jekyll-aquarius (0.1.8)
       jekyll (~> 3.5)
       jekyll-feed (~> 0.9)
       jekyll-paginate-v2
