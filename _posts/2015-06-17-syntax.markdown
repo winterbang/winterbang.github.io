@@ -18,7 +18,7 @@ Fixnum.class_eval do
 	include Basic
 end
 
-3.add 4  #=> 7 
+3.add 4  #=> 7
 ```
 2.在类定义中引入模块，使模块中的方法成为类的实例方法。这种情况也是比较常见的，直接 `extend` 即可。
 
@@ -43,11 +43,11 @@ module ExtendThroughInclude
 	def self.included(klass)
 		klass.extend ClassMethods
 	end
-	
+
 	def instance_method
 		"this is an instance method of #{self.class}"
 	end
-	
+
 	module ClassMethods
 		def class_method
 			"this is a method on the #{self} class"
