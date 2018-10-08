@@ -48,8 +48,9 @@ GIT
       rouge (= 2.2.1)
       terminal-table (~> 1.4)
 
-PATH
-  remote: /Users/wendell/mypro/jekyll-aquarius
+GIT
+  remote: https://github.com/winterbang/jekyll-aquarius
+  revision: e98155689b60230c8144fd7440cb739f9da2350a
   specs:
     jekyll-aquarius (0.1.6)
       jekyll (~> 3.5)
