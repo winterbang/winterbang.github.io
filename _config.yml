@@ -40,8 +40,8 @@ kramdown:
   #   coderay_css:               style
 
 # theme: minima
-# remote_theme: winterbang/jekyll-aquarius
-theme: jekyll-aquarius
+remote_theme: winterbang/jekyll-aquarius
+# theme: jekyll-aquarius
 plugins:
   - jekyll-feed
   - jekyll-paginate
