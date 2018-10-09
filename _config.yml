@@ -40,11 +40,11 @@ kramdown:
   #   coderay_css:               style
 
 # theme: minima
-remote_theme: winterbang/jekyll-aquarius
-# theme: jekyll-aquarius
+# remote_theme: winterbang/jekyll-aquarius
+theme: jekyll-aquarius
 plugins:
-  # - jekyll-feed
-  - jekyll-paginate-v2
+  - jekyll-feed
+  - jekyll-paginate
   - octopress-debugger
 # 分页
 # paginate: 6
@@ -90,16 +90,18 @@ comments:
   gitalk_owner: 'winterbang'
   gitalk_admin: 'winterbang'
   distractionFreeMode: false
-pagination:
-  enabled: true
-  # collection: 'posts'
-  permalink: '/pages/:num'
-  title: ':title | :num of :max'
-  sort_field: 'date'
-  sort_reverse: true
-  per_page: 9
-  limit: 0
-  trail:
-    before: 2 # The number of links before the current page
-    after: 2
-  indexpage: 'index'
+paginate: 6
+paginate_path: "page:num"
+# pagination:
+#   enabled: true
+#   # collection: 'posts'
+#   permalink: '/pages/:num'
+#   title: ':title | :num of :max'
+#   sort_field: 'date'
+#   sort_reverse: true
+#   per_page: 9
+#   limit: 0
+#   trail:
+#     before: 2 # The number of links before the current page
+#     after: 2
+#   indexpage: 'index'

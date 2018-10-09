@@ -25,3 +25,5 @@ jekyll
   `unpublish`  Moves a post back into the _drafts directory
 
   `page`  Creates a new page with the given NAME
+
+https://pages.github.com/versions/

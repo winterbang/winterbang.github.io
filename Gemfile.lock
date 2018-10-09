@@ -48,14 +48,13 @@ GIT
       rouge (= 2.2.1)
       terminal-table (~> 1.4)
 
-GIT
-  remote: https://github.com/winterbang/jekyll-aquarius
-  revision: 5475c9329603c9e6d9546691497ec421bead0105
+PATH
+  remote: /Users/wendell/mypro/jekyll-aquarius
   specs:
     jekyll-aquarius (0.1.8)
       jekyll (~> 3.5)
       jekyll-feed (~> 0.9)
-      jekyll-paginate-v2
+      jekyll-paginate
       jekyll-seo-tag (~> 2.1)
 
 GEM
@@ -146,8 +145,6 @@ GEM
     jekyll-optional-front-matter (0.3.0)
       jekyll (~> 3.0)
     jekyll-paginate (1.1.0)
-    jekyll-paginate-v2 (2.0.0)
-      jekyll (~> 3.0)
     jekyll-readme-index (0.2.0)
       jekyll (~> 3.0)
     jekyll-redirect-from (0.14.0)
@@ -277,7 +274,7 @@ DEPENDENCIES
   jekyll
   jekyll-aquarius!
   jekyll-compose
-  jekyll-paginate-v2
+  jekyll-paginate
   kramdown
   octopress-debugger
   tzinfo-data
