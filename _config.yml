@@ -1,12 +1,36 @@
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
+# 目录结构
+# plugins: ./_plugins
+data_dir: ./_data
+collections: null
+# 阅读处理
+# safe: false
+# YAML头信息
+defaults:
+  -
+    scope:
+      path: "" # 一个空的字符串代表项目中所有的文件
+      type: posts
+    values:
+      layout: default
+      # permalink: pretty
+  -
+    scope:
+      path: ""
+      type: caprices
+    values:
+      layout: page
+
+# 服务器选项
+detach:  false
+port:    4000
+host:    127.0.0.1
+baseurl: ""
+
 title: Winter's Blog
 author: winter
 email: zwtao90@gmail.com
-description: >- # 我是一个，
+description: >-
+  我是一个，
   饺子只喜欢吃韭菜鸡蛋，
   不吃动物的爪子或蹄子，
   阴天出门不愿意带伞，
@@ -14,13 +38,24 @@ description: >- # 我是一个，
   完美主义严重患者换句话说就是完美的符合拖延症的人，
   我偏好素食可奇怪的是喜欢吃肥猪肉，
   我是一个，不我不是一个，我是两个，我是双子
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://blog.zhangmoumou.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: https://blog.zhangmoumou.com # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: winterbang
 github_username:  winterbang
 
-# Build settings
+collections:
+  caprices:
+    output: true
+    permalink: /caprices/:path/
+# 转换
 markdown: kramdown # [ maruku | rdiscount | kramdown | redcarpet ]
+highlighter: rouge
+lsi:         false
+excerpt_separator: "\n\n"
+incremental: false
+
+# Liquid的错误处理方式
+error_mode: warn
+# Markdown 处理器
 kramdown:
   input:          GFM
   auto_ids:       true
@@ -39,6 +74,9 @@ kramdown:
   #   coderay_bold_every:        10
   #   coderay_css:               style
 
+sass:
+  # sass_dir: _sass
+  style: compressed
 # theme: minima
 remote_theme: winterbang/jekyll-aquarius
 # theme: jekyll-aquarius
@@ -47,8 +85,8 @@ plugins:
   - jekyll-paginate
   - octopress-debugger
 # 分页
-# paginate: 6
-# paginate_path: "/blog/page:num/"
+paginate: 6
+paginate_path: "page:num"
 
 links:
   - name:         首页
@@ -90,8 +128,6 @@ comments:
   gitalk_owner: 'winterbang'
   gitalk_admin: 'winterbang'
   distractionFreeMode: false
-paginate: 6
-paginate_path: "page:num"
 # pagination:
 #   enabled: true
 #   # collection: 'posts'

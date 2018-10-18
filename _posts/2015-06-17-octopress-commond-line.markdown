@@ -8,12 +8,12 @@ comments: true
 categories: octopress
 category: octopress
 tags:
-- github
-- git-crypt
-- encfs
-- gpg
-- git-remote-gcryp
-- sshfs
+  - github
+  - git-crypt
+  - encfs
+  - gpg
+  - git-remote-gcryp
+  - sshfs
 ---
 
 ## octopress常用命令

@@ -1,76 +1,48 @@
 ---
-layout: blog
+layout: about
 title: 关于Winter
 description: "关于Winter博客角落自述"
 data: 2018-01-25 09:19:11
 tags:
-- Winter
-- 简述
-- 关于
-- Liber
-- Xue
-- 坐井观天阔
+  - Winter
+  - 简述
+  - 关于
+  - 坐井观天阔
 redirect_from:
   - /about/
+permalink: /about
 ---
 
-# Hello World
+##  本人名称：哦了 or Winter or 冬天
 
-又换了个博客主题 这次终于看见不那么难受了
+### 名称简述
 
-博客使用Jekyll搭建托管在GitHub目前使用主题[已开源](https://github.com/winterbang/jekyll-aquarius)
+之前从事的一家公司，有个有趣的规定，就是每个员工之间不直呼姓名，每个人都个有趣的别名，我当时就把微信昵称拿来用了，所以那家公司的朋友圈的好多老同事都叫我--`哦了`。
 
-<iframe src="http://ghbtns.com/github-btn.html?user=winterbang&repo=winterbang.github.io&type=fork&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="95" height="20"></iframe>
-
-
-博客图片使用七牛云加速
-
-##  LiberXue  曾用名013
-
-### 曾用名013简述
-
-
-之前五年间一直使用013这个网名好多朋友问什么是？
-
-013不就是十三吗 装呗
-
-其实很简单在86版西游记中十三集开始悟空取经上路
-
-还有一个原因2009年9月13日我在北京只剩下6块钱活三个月时间...
-
-### LiberXue简述
-
-#### Liber注释
-
-同我名字谐音 ``Liber`` 英文翻译过来：自由
-
-#### Xue注释
-
-`Xue` 就是拼音 ...我名字最后一个字(⊙ω⊙)
+后来去了一家有外国人的公司，那些外国人讲英文，签字什么的都是用英文名。而我老早之前就把自己的中文名音译了英文名--winter，然后`winter`就成了朋友都知道的我的英文名。然后一些中国人却喜欢叫`冬天`。然后`冬天`成了我另一个朋友圈的名字。
 
 ## 想做一名全栈开发
 
-这是一个梦... 当然是梦肯定要成为架构师
+我喜欢前端即写即现的。
 
 ### 使用语言
 
-``ruby ``|``JavaScript``| ``Python``|
+``ruby ``|``nodejs``| ``Python``|
 
- ``html`` |``css`` |``PHP``|
+ ``JavaScript`` |``css`` |``html``|
 
- 目前主攻``ruby``
+ 目前主攻 ``ruby``
 
 ### 个人爱好
 
- 热衷于``幻想``
+ 热衷于 `幻想`
 
 ### 业余时间
 
-- 非越狱环境下iOS应用逆向研究
-- web安全
-- freebsd
-- ros路由器
-- 防火墙
+- Dota2 (卫士III，萌新)
+- 星巴克看书 （装13也罢，现在这个世界纷纷扰扰，就是想有个最舒服惬意的远离🛏️的地方来安静的坐一个下午）
+- 做饭（最擅长的就是炒土豆丝，西红柿鸡蛋，虽简单，但我喜欢吃）
+- 农药（慢慢悠悠的甄姬一直陪我在钻石里徘徊）
 
 ### 个人喜好
 
@@ -79,28 +51,28 @@ redirect_from:
 阴天出门不愿意带伞，
 看到带着宠物遛弯的人总习惯性的比较下宠物和主人长得像不像，
 完美主义严重患者换句话说就是完美的符合拖延症的人，
-我偏好素食可奇怪的是喜欢吃肥猪肉
+我偏好素食可奇怪的是喜欢吃肥肉
 
-# 第一篇博客
+# 主要内容
 
-作为网站的第一篇博客，并没有太多事情要写
-
+作为网站的`about`，也没有清晰的思路去写些关于什么的。
 
 ## 主要谈三个方面
 
 ### 自己的开发经历
 
-#### 2010-2014
-曾在X国企电信开发400电话呼叫管理系统
+#### 2013-2014
+在一家游戏公司，负责一个棋牌游戏项目组的门户网站开发
 * 使用技术：
-- c#
-- asp.net
-- visual-studio
-- winform+seversql
-* 项目经验    
+- Ruby on Rails
+- JavaScript
+- css
+- html
 
-- 400电话呼叫管理系统,支撑用户5000+并发量
+* 项目经验 ：   
+- 学习了rails开发框架
 - 支持移动端呼叫来电显示
+
 * 岗位职责
 - 负责公司网站美工前端seo，机房维护
 - 负责系统后台及前端页面开发；
@@ -109,82 +81,76 @@ redirect_from:
 - 分析并协调解决开发过程中遇到的各种问题，能够快速响应产品需求变化；
 - 配合leader进行计划排期、项目设计、代码审核等工作。
 
-2014年9月10号离职意淫创业
->创业产品一：净化网络路由器（去视频广告系统和NAS(私有云)路由器整合）。
-使用系统：Freebsd
-使用技术：c++  perl PHP ruby  
-创业目的：DNS双向加速缓存,cc攻击流量分析,   去视频广告系统和NAS(私有云)。
+#### 2014-6月-2015年7月份
+北京五道口，同心医联网有限公司--一家医疗互联网公司
 
-> 创业产品二：使用ros squid 秒开和自己开发的认证Wi-Fi系统 做公共室外Wi-Fi广告认证 wididog openwrt远程控制营销系统一体集成的云端控制系统
-  wifidog/ros微信连wifi/i认证营销系统 是路由器云端控制系统，轻松实现无线登陆手机认证，微信认证，一键上网，广告控制系统，微信连wifi,营销系统一体集成的云端控制系统。
-       云端源码以PHP加MYSQL非常成熟的技术开发，开发完成各基础的功能， 用户可根据自身的运营需求，简单修改PHP页面或程序来实现不同的运营需求。
+* 使用技术：
+- Ruby on Rails
+- JavaScript
+- css
+- html
 
+#### 2015-7月-2015年8月份
+无锡兼职医疗相关
 
-#### 2014-10月-2016年12月份
-创业失败 上班
+* 使用技术：
+- Ruby on Rails
+- JavaScript
+- css
+- html
+- angular
 
+#### 2015-9月-2016年6月份
+北京来广营，住百家
 
-#### 2017-3月-2017年6月份
-北京X智慧教育公司 负责全栈开发
-公司不发工资 ，开发团队解散！
+* 使用技术：
+- Ruby on Rails
+- JavaScript
+- css
+- html
 
-喜欢专研计算机软硬件，玩过不少ARM开发版，独立开发过路由器和路由认证系统，喜欢用软件和脚本解决生活中重复性问题。业余曾在乌云和360补天提交过不少漏洞和bug，2013年百度SEO搜索引擎营销学院学习过SEO优化，能够使用photoshop、CorelDRAW、IIIustator、CAD和3DMAX,独立编译开发过webkit浏览器，2017年独立反编译分析"WannaCry2.0"病毒原理。
+#### 2016-8月-2017年7月份
+一家游戏公司负责后台功能
 
-### 目前感兴趣的技术领域
+* 使用技术：
+- react
 
-眼下最热门的技术，绝对是人工智能。
+#### 2017-8月-现在
+游戏公司全栈开发
 
-人工智能的底层模型是"神经网络"（neural network）。许多复杂的应用（比如模式识别、自动控制）和高级模型（比如深度学习）都基于它。学习人工智能，一定是从它开始。
+* 使用技术：
+- Ruby on Rails
+- JavaScript
+- css
+- html
+- vue
+- sails
 
 ### 搭建这个blog的初衷与过程
 
-博客记录我的生活。
-
-该博客创建于 2010 年 3 月，主要为个人的网络日志，在线记录生活、工作、情感和游玩的事儿，分享互联网动态和社会百态。2015 年 9 月 1 日起开始使用  Jekyll 主题，该主题支持 iPhone 和 iPad 等不同屏幕分辨率，响应式设计，但不支持 IE 浏览器
-
-
-
-# 权利声明
-
-本“博客”的一切知识产权，以及与"博客"相关的所有信息内容，包括但不限于： 文字表述及其组合、图标、图饰、图像、图表、色彩、界面设计、版面框架、有关数据、附加程序、印刷材料或电子文档等均为博客作者所有， 受著作权法和国际著作权条约以及其他知识产权法律法规的保护。
-
-## 权利限制
-
-禁止未经明确书面授权的任何商业与非商业用途的存储，转载，传播；除法律、法规明文规定允许上述活动外，用户必须遵守此限制。
-
-* 不转载也希望不希望被转载，
-
-* 如果要转载，请至少认真的看完，合不合适实不实用
-
-* 请不要原封不动一字不差的转载...个人非常鄙视这种行为百度上面这种重复内容毫无意义垃圾够了。
+1. 装13，说得直白了是装13，说得文化点，是因为我有一个文艺的有内心有所追求的程序员。
+2. 博客记录我的生活。随着时间的推移，年龄的增长，经历的遇见的人或事也越来越多，有时突然想到某个人或事，最终在脑子里也只是那么一个闪现，其中的故事的过程和名字怎么也想不到了。时间不停，生命在减，逝去的虽然已经过去，但那逝去的终究是消耗了我们宝贵的时间。我害怕失去，更害怕失去好连记忆都被抹去。
 
 # 个人独立开发项目
 
 ID|项 目 名 称| 开 发 语 言| 功 能 简 述| 框架| 是否上线|
 |:--------|:-------:|:-------:|:-------:|:-------:|-------:|
-1|Wi-Fidog路由器认证| PHP&mysql|上网报表分析+用户/代理商/总后台|thinkphp|是
-2|ros路由器Api认证开发|PHP&mysql|多vlan+用户/代理商/总后台|thinkphp|是
-3|智能开关餐饮系统|PHP&c#&mysql|winfrom+web微信选座点餐数据交互|无|是
-4|oa即时通讯办公系统|PHP&mysql|workerman／socket／json／APIcloud|无|是
-5|微信云客服|vc++&JavaScript&c#|微信自动回复.红包.语音.自动加好友等|无|已开源
-6|webkit/cef浏览器|cef&webkit&c#|类似腾讯视频客户端自定义flash右键|无|已开源
-7|vcdlocker硬盘锁|vc++&nasm|可以绕过腾讯管家360杀毒加密硬盘|无|已开源
-8|c/s客户端自动更新|c#|c#客户端自动更新程序+服务端生成程序|无|已开源
-9|安装打包程序|c#|自定义安装包，打包程序源代码|无|是
-10|c#交互lua|c#&adb&lua|通达oa打卡支付ar自动抢五福|无|已开源
-11|freebsd路由器|vc perl PHP ruby|dns双向加速缓存 cc流量分析|freebsd|没有
-11|Jekyll themes|html5 css3 moonjs ruby json|Jekyll|无|已开源
-
-
-
+1|[wow-route](https://github.com/winterbang/wow-route)| ruby |rails路由功能扩展gem包|gem|是
+2|[tgbot-rails](https://github.com/winterbang/tgbot-rails)|ruby|telegram bot|gem|是
+2|[makati](https://github.com/winterbang/makati)|ruby|抽象的actions|gem|是
+2|[klotski](https://github.com/winterbang/klotski)|JavaScript|数字华容道小游戏|gem|是
+2|[tom_and_jerry](https://github.com/winterbang/tom_and_jerry)|JavaScript|简单有趣的棋牌类小游戏|gem|是
 
 #### 联系方式
-******
 
 你可以通过以下几种方式联系到我。
 
 * [提交Issues](https://github.com/winterbang/winterbang.github.io/issues)
-
 * [发邮件](mailto:zwtao90@gmail.com)
+* [Twitter](https://twitter.com/winterbang)
 
-* [Twitter](https://twitter.com/winterbang).
+******
+## 广告
+
+博客使用Jekyll搭建托管在GitHub，目前使用主题[已开源](https://github.com/winterbang/jekyll-aquarius)
+<iframe src="http://ghbtns.com/github-btn.html?user=winterbang&repo=winterbang.github.io&type=fork&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="95" height="20"></iframe>
