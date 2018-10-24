@@ -77,8 +77,8 @@ kramdown:
 sass:
   # sass_dir: _sass
   style: compressed
-# remote_theme: winterbang/jekyll-aquarius
-theme: jekyll-aquarius
+remote_theme: winterbang/jekyll-aquarius
+# theme: jekyll-aquarius
 plugins:
   - jekyll-feed
   - jekyll-paginate
