@@ -107,12 +107,18 @@ cover-image: '/images/tom_and_jerry.png'
   <canvas id="canvas"></canvas>
   <div class="ready" >
     <p class="bg-danger"> 错误提示</p>
-    <form class="form-inline">
-      <div class="form-group">
+    <form>
+      <div class="form-row mb-3">
         <input type="text" name="room-no" class="form-control" value="" placeholder="输入房间号">
       </div>
-      <button class="btn btn-primary" type="button" name="新建房间" id="ck-newroom">新建房间</button>
-      <button class="btn btn-success" type="button" name="进入房间" id="ck-intoroom" style="float:right;">进入房间</button>
+      <div class="form-row">
+        <div class="col">
+          <button class="btn btn-primary" type="button" name="新建房间" id="ck-newroom">新建房间</button>
+        </div>
+        <div class="col">
+          <button class="btn btn-success" type="button" name="进入房间" id="ck-intoroom" style="float:right;">进入房间</button>
+        </div>
+      </div>
     </form>
   </div>
   <div class="loading" style="display: none" >

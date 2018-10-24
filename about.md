@@ -7,7 +7,6 @@ tags:
   - Winter
   - 简述
   - 关于
-  - 坐井观天阔
 redirect_from:
   - /about/
 permalink: /about

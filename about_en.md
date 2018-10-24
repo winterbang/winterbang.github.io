@@ -7,7 +7,6 @@ tags:
   - Winter
   - 简述
   - 关于
-  - 坐井观天阔
 redirect_from:
   - /about/
 permalink: /about
@@ -19,17 +18,17 @@ permalink: /about
 
     `Sex`: Male
 
-　　Age: 28 years
+　　`Age`: 28 years
 
-　　Marital Status: Single
+　　`Marital Status`: Single
 
-　　Date of Birth: June 5, 1990
+　　`Date of Birth`: June 5, 1990
 
-　　Nationality: Chinese
+　　`Nationality`: Chinese
 
-　　Languages Known: Chinese and English
+　　`Languages Known`: Chinese and English
 
-　　Hobbies: Trekking and playing Dota2
+　　`Hobbies`: Trekking and playing Dota2
 
 ## Education
 
@@ -75,15 +74,16 @@ permalink: /about
 
 　　Microsoft suite
 
-　　Professional Experience
+## Professional Experience
 
-　　Company- Infotech Ltd., CA
+### 1
+####　Company- Infotech Ltd., CA
 
 　　Designation: Sr. Cognos Consultant
 
 　　Duration- Apr 2003 to present
 
-### Job responsibilities:
+#### Job responsibilities:
 
 　　Provide support to data ware housing and business intelligence applications
 
@@ -105,9 +105,12 @@ permalink: /about
 
 　　Manage a team through effective leadership strategies
 
-　　Company- XYZ, CA Designation: Sr. Cognos Consultant Duration- Feb 2000 to Mar 2003
+### 2
+#### Company- XYZ, CA
+     Designation: Sr. Cognos Consultant
+     Duration- Feb 2000 to Mar 2003
 
-### Job Responsibilities:
+#### Job Responsibilities:
 
 　　Involve in installation, configuration and maintenance of Cognos environment
 

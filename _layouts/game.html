@@ -5,7 +5,6 @@
     <meta content='{{ page.title }} - {{ site.title }}' name='og:title' />
     <title>{{ page.title }} - {{ site.title }}</title>
     {% include head.html %}
-    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link href="{{ '/assets/game.css' | relative_url }}" rel="stylesheet">
   </head>
   <body class="" gtools_scp_screen_capture_injected="true">
@@ -21,7 +20,7 @@
       	  <div class="post-data">
       	    <time datetime="{{ page.date | date: '%F %H:%M:%S'}}" itemprop="datePublished">发布时间：{{ page.date | date: "%F %H:%M:%S"}}</time>
             <a href="/tags#{{ page.category }}" title="访问 {{ page.category }}" data-hover="博客分类: {{ page.category }}">博客分类: {{ page.category }}</a>
-            <a href="#read"> 游戏次数: comments</a>
+            <!-- <a href="#read"> 游戏次数: comments</a> -->
       		</div>
           <div class="post-tags">
             {% unless page.tags == empty %}
@@ -53,7 +52,7 @@
     		<h1 class="post-title" itemprop="name headline">
     			{{ page.title }}</h1>
     		<div class="post-data">
-    				<time datetime="{{ page.date | date: '%F %H:%M:%S'}}" itemprop="datePublished">{{ page.date | date: "%F %H:%M:%S"}}</time>
+    			<time datetime="{{ page.date | date: '%F %H:%M:%S'}}" itemprop="datePublished">{{ page.date | date: "%F %H:%M:%S"}}</time>
     		</div>
     	</div>
     	<div id="post-content" class="post-content" itemprop="articleBody">
