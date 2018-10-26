@@ -51,7 +51,7 @@ GIT
 PATH
   remote: /Users/wendell/mypro/jekyll-aquarius
   specs:
-    jekyll-aquarius (0.1.9)
+    jekyll-aquarius (0.2.0)
       jekyll (~> 3.5)
       jekyll-feed (~> 0.9)
       jekyll-paginate
