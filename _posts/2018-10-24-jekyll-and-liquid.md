@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: blog
 title:  "jekyll and liquid"
 date:   2018-10-24 17:32:20 +0800
 categories: liquid on jekyll
