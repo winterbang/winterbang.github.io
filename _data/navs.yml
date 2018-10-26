@@ -7,12 +7,12 @@
 - name:         随想
   url:          /caprices
   external:     false
-- name:         旅游
-  url:          /road
-  external:     false
-- name:         归档
-  url:          /archives
-  external:     false
+# - name:         旅游
+#   url:          /road
+#   external:     false
+# - name:         归档
+#   url:          /archives
+#   external:     false
 - name:         标签
   url:          /tags
   external:     false

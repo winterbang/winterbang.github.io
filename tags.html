@@ -1,0 +1,19 @@
+---
+layout: post
+colors:
+  - primary
+  - secondary
+  - success
+  - danger
+  - warning
+  - info
+  - dark
+---
+{% for tag in site.tags %}
+  {% assign color_idx = forloop.index0 | modulo:page.colors.size%}
+  <button type="button" class="btn btn-{{ page.colors[color_idx] }} mb-3">
+    {{tag[0]}}
+    <span class="badge badge-light">{{ tag[1].size }}</span>
+  </button>
+
+{% endfor %}

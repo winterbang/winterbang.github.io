@@ -1,0 +1,20 @@
+---
+layout: index
+title: "随想"
+date: 2015-06-17 12:03:26 +0800
+categories: 随想
+category: 随想
+permalink:  /:collection
+---
+
+{% for caprice in site.caprices %}
+  {% if page.path != caprice.path %}
+    <h2>
+      <a href="{{ caprice.url }}">
+        {{ caprice.title }}
+      </a>
+      <span style="font-size: 14px;">{{ caprice.date | date: "%m.%d.%Y" }}</span>
+    </h2>
+    <p>{{ caprice.content | markdownify }}</p>
+  {% endif %}
+{% endfor %}
