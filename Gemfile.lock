@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/github/pages-gem
-  revision: 5bc41a93ded7b896012b8a517deb474e084f3428
+  revision: 8b199c139982187e0c858a82dba1580daad6ccc8
   specs:
     github-pages (192)
       activesupport (= 4.2.10)
@@ -51,7 +51,7 @@ GIT
 PATH
   remote: /Users/wendell/mypro/jekyll-aquarius
   specs:
-    jekyll-aquarius (0.2.0)
+    jekyll-aquarius (0.2.1)
       jekyll (~> 3.5)
       jekyll-feed (~> 0.9)
       jekyll-paginate

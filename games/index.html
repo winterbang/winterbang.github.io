@@ -1,3 +1,14 @@
 ---
-layout: default
+layout: index
 ---
+{% for game in site.tags.game %}
+  {% if page.path != game.path %}
+    <h2>
+      <a href="{{ game.url }}">
+        {{ game.title }}
+      </a>
+      <span style="font-size: 14px;">{{ game.date | date: "%m.%d.%Y" }}</span>
+    </h2>
+    <p>{{ game.excerpt | markdownify }}</p>
+  {% endif %}
+{% endfor %}

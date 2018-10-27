@@ -1,0 +1,15 @@
+---
+layout: index
+---
+
+{% for caprice in site.caprices %}
+  {% if page.path != caprice.path %}
+    <h2>
+      <a href="{{ caprice.url }}">
+        {{ caprice.title }}
+      </a>
+      <span style="font-size: 14px;">{{ caprice.date | date: "%m.%d.%Y" }}</span>
+    </h2>
+    <p>{{ caprice.content | markdownify }}</p>
+  {% endif %}
+{% endfor %}

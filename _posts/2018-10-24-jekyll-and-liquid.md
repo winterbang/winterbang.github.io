@@ -81,7 +81,7 @@ We made 1 million dollars {% comment %} in losses {% endcomment %} this year
 
 ```
 {% raw %}
-    In Handlebars, {{ this }} will be HTML-escaped, but {{{ that }}} will not.
+  In Handlebars, {{ this }} will be HTML-escaped, but {{{ that }}} will not.
 {% endraw %}
 ```
 
