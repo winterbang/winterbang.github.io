@@ -2,31 +2,37 @@
 layout: blog
 title:  "jekyll and liquid"
 date:   2018-10-24 17:32:20 +0800
-categories: liquid on jekyll
+categories: liquid jekyll
 ---
+
 ## Liquid
 
 ### 输出
-
+{% raw %}
 ``` liquid
 Hello {{name}}
 Hello {{user.name}}
 Hello {{ 'leszek' }}
 ```
+{% endraw %}
 ### Filters
 
+{% raw %}
 ``` liquid
 Word hello has {{ 'hello' | size }} letters!
 Todat is {{ 'now' | date: "%Y %h" }}
 ```
+{% endraw %}
 对于从`_data`得到某条特定的数据，`where` 过滤器特别好用:
 
-```
+{% raw %}
+```liquid
 {% assign currentItem = site.data.foo | where:"slug","bar" %}
 {{ newArray[0].name }}
 ```
+{% endraw %}
 常用的过滤器:
-
+{% raw %}
 - `where` -- select elements from array with given property value: `{{ site.posts | where:"category","foo" }}`
 - `group_by` -- group elements from array by given property: `{{ site.posts | group_by:"category" }}`
 - `markdownify` -- convert markdown to HTML
@@ -54,6 +60,7 @@ Todat is {{ 'now' | date: "%Y %h" }}
 - `ceil` -- 数字向上取整
 - `lstrip`, `rstrip`, `strip` -- 去除句子首部、尾部、首尾空白字符
 - `slice` -- 截取指定长度的字符串，第二个表示长度，第一个表示索引，从0开始，如果为负数，从后面往前数，从-1开始: `{{ "Liquid" | slice: 0 }}` 或者 `{{ "Liquid" | slice: -3, 2 }}`
+{% endraw %}
 ### Tags
 
 Tags are used for the logic in your template.
@@ -70,7 +77,7 @@ We made 1 million dollars {% comment %} in losses {% endcomment %} this year
 
 #### Raw
 
-Disables tag processing.
+禁用Tag。
 
 ```
 {% raw %}
@@ -81,7 +88,7 @@ Disables tag processing.
 #### If / Else
 
 Simple expression with if/unless, elsif [sic!] and else.
-
+{% raw %}
 ```
 {% if user %}
     Hello {{ user.name }}
@@ -91,25 +98,28 @@ Simple expression with if/unless, elsif [sic!] and else.
     Who are you?
 {% endif %}
 ```
+{% endraw %}
 
+{% raw %}
 ```
 {% unless user.name == "leszek" and user.race == "human" %}
     Hello non-human non-leszek
 {% endunless %}
 ```
-
+{% endraw %}
+{% raw %}
 ```
 # array: [1,2,3]
 {% if array contains 2 %}
     array includes 2
 {% endif %}
 ```
-
+{% endraw %}
 
 #### Case
 
 For more conditions.
-
+{% raw %}
 ```
 {% case condition %}
     {% when 1 %}
@@ -120,26 +130,27 @@ For more conditions.
         don't hit
 {% endcase %}
 ```
-
+{% endraw %}
 
 #### For loop
 
 Simple loop over a collection:
 
+{% raw %}
 ```
 {% for item in array %}
     {{ item }}
 {% endfor %}
 ```
-
+{% endraw %}
 Simple loop with iteration:
-
+{% raw %}
 ```
 {% for i in (1..10) %}
     {{ i }}
 {% endfor %}
 ```
-
+{% endraw %}
 一些在特殊情况下可能有用辅助变量：
 
 - `forloop.length` -- 需要循环的次数
@@ -159,23 +170,25 @@ Simple loop with iteration:
 ```
 
 You can also reverse the loop:
-
+{% raw %}
 ```
 {% for item in array reversed %}
 ...
 {% endfor s%}
 ```
-
+{% endraw %}
 #### Storing variables
 
 Storing data in variables:
 
+{% raw %}
 ```
 {% assign name = 'leszek' %}
 ```
-
+{% endraw %}
 Combining multiple strings into one variable:
-
+{% raw %}
 ```
 {% capture full-name %}{{ name }} {{ surname }}{% endcapture %}
 ```
+{% endraw %}
