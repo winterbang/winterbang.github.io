@@ -12,3 +12,4 @@ title: 我的rss源
 `https://www.zhangxinxu.com/wordpress/feed/`
 `http://jdc.jd.com/feed`
 `https://aotu.io/atom.xml`
+`https://jackeygao.io/rss.xml`
