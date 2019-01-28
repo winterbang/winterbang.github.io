@@ -39,3 +39,5 @@ var ModalHelper = (function(bodyCls) {
 ## 2. 去除inline-block元素间间距
 父元素上添加样式 `font-size: 0`
 注意：如果在inline-block元素中添加子元素，则同级的inline-block元素将不并列展示，这时需要给inline-block元素添加`vertical-align: top;`
+
+## 3. body如果添加height:100% 滚动会变得生硬，

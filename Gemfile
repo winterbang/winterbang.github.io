@@ -21,6 +21,7 @@ group :jekyll_plugins do
   gem 'octopress-debugger'
   gem 'jekyll-admin'
   gem 'guard-jekyll'
+  gem 'jekyll-livereload'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem

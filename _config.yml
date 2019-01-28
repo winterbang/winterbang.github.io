@@ -140,3 +140,5 @@ comments:
 #     before: 2 # The number of links before the current page
 #     after: 2
 #   indexpage: 'index'
+livereload: true     # You no longer need to include --livereload
+reload_port: 5678
