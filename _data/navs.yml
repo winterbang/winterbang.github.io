@@ -16,6 +16,9 @@
 - name:         标签
   url:          /tags
   external:     false
+- name:         Redisbox
+  url:          http://www.redisbox.com
+  external:     false
 - name:         关于
   url:          /about
   external:     false
