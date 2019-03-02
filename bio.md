@@ -7,7 +7,7 @@
 
 > ### 教育情况
 
-2013年毕业于 **_河北大学工商学院_** **_电气工程及其自动化_** 专业，毕业前完成了在北京为期三个月的Python培训学习。
+2013年毕业于 **_河北大学工商学院_** **_电气工程及其自动化_** 专业，毕业前完成了在北京为期三个月的Python培训学习
 
 > ### 用过的语言
 
@@ -72,11 +72,11 @@ __项目经验 ：__
 
 
 **岗位职责**
-- 负责系统后台及前端页面开发；
-- 参与项目需求讨论、分析、评估，能根据需求承担项目功能设计开发工作，并按时保质完成开发任务；
-- 快速响应产品需求变化，能够进行模块功能技术方案优化；
-- 分析并协调解决开发过程中遇到的各种问题，能够快速响应产品需求变化；
-- 配合leader进行计划排期、项目设计、代码审核等工作。
+- 负责系统后台及前端页面开发
+- 参与项目需求讨论、分析、评估，能根据需求承担项目功能设计开发工作，并按时保质完成开发任务
+- 快速响应产品需求变化，能够进行模块功能技术方案优化
+- 分析并协调解决开发过程中遇到的各种问题，能够快速响应产品需求变化
+- 配合leader进行计划排期、项目设计、代码审核等工作
 
 > ### 2015-7月-2015年8月份
 无锡，兼职医疗相关
@@ -103,6 +103,10 @@ __项目经验 ：__
 **使用技术：**
 - react
 
+**岗位职责**
+- 用Django搭建域名监控系统，可以监控各域名的实时状态
+- 配合后端接口完善后台界面功能开发
+
 > ### 2017-8月-现在
 游戏公司全栈开发
 
@@ -114,16 +118,22 @@ __项目经验 ：__
 - Vue
 - Sails
 
-## 个人独立开发项目
+**岗位职责**
+- 负责系统后台及前端页面开发
+- 根据产品需求拆分任务
+- 尽量完善、优化后台功能，方便其它部门工作需要
+- 优化项目组织架构，更好的做到项目的迭代更新和维护
 
+## 个人独立开发项目
 
 ID|项 目 名 称| 开 发 语 言| 功 能 简 述| 类别| 是否上线|
 |:--------|:-------:|:-------:|:-------:|:-------:|-------:|
 1|[wow-route](https://github.com/winterbang/wow-route)| ruby |rails路由功能扩展gem包|gem|是
 2|[tgbot-rails](https://github.com/winterbang/tgbot-rails)|ruby|telegram bot|gem|是
-2|[makati](https://github.com/winterbang/makati)|ruby|抽象的actions|gem|是
-2|[klotski](https://github.com/winterbang/klotski)|JavaScript|数字华容道小游戏|cavans|是
-2|[tom_and_jerry](https://github.com/winterbang/tom_and_jerry)|JavaScript|简单有趣的棋牌类小游戏|cavans|是
+3|[makati](https://github.com/winterbang/makati)|ruby|抽象的actions|gem|是
+4|[klotski](https://github.com/winterbang/klotski)|JavaScript|数字华容道小游戏|cavans|是
+5|[tom_and_jerry](https://github.com/winterbang/tom_and_jerry)|JavaScript|简单有趣的棋牌类小游戏|cavans|是
+6|[redisbox](http://www.redisbox.com)|JavaScript|Redis 图形化桌面客户端|electron|是
 
 ## 其它
 > ### 个人的称呼由来简述
@@ -180,3 +190,5 @@ ID|项 目 名 称| 开 发 语 言| 功 能 简 述| 类别| 是否上线|
 研究过小程序开发，也玩过小游戏开发，后来因为上线的各种限制就都停留在自娱阶段。毕竟写代码是我的一个兴趣，完成项目那是工作，这是不一样的，了解了，会玩了，我也就爽过了。
 
 也整通了谷歌跨平台app开发框架--flutter的一套开发流程，可以一套代码开发出苹果和安卓的app。
+
+喜欢游戏开发，最近在研究Phaser3游戏引擎
