@@ -1,4 +1,8 @@
-# source "https://rubygems.org"
+source "https://rubygems.org"
+
+gem "rack", ">= 1.6.11"
+gem "nokogiri", ">= 1.10.4"
+gem "rubyzip", ">= 1.3.0"
 
 gem "jekyll"
 # gem 'github-pages'
