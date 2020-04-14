@@ -20,7 +20,7 @@ end
 
 3.add 4  #=> 7
 ```
-2.在类定义中引入模块，使模块中的方法成为类的实例方法。这种情况也是比较常见的，直接 `extend` 即可。
+2.在类定义中引入模块，使模块中的方法成为类方法。这种情况也是比较常见的，直接 `extend` 即可。
 
 ```ruby
 module ExtendMe
@@ -60,6 +60,6 @@ class Person
 end
 
 Person.new.instance_method #=> "this is an instance method Person"
-Person.new.instance_method #=> "this is a method on the Person class"
+Person.class_method #=> "this is a method on the Person class"
 
 ```

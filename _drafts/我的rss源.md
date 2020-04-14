@@ -14,3 +14,4 @@ title: 我的rss源
 `https://aotu.io/atom.xml`
 `https://jackeygao.io/rss.xml`
 `https://codeday.me/`
+`https://tingtinghsu.github.io/blog/atom.xml/`
