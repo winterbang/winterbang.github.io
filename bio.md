@@ -27,7 +27,7 @@
 
 > ### 个人主页
 
-- [个人博客](https:://blog.zhchsh.xyz)
+- [个人博客](http:://blog.zhchsh.xyz)
 - [Github](https://github.com/winterbang)
 - [Stack Overflow ](https://stackoverflow.com/users/5127091/winter)
 
@@ -43,7 +43,7 @@
 - CSS
 - HTML
 
-__项目经验 ：__   
+__项目经验 ：__
 - 学习了Ruby on Rails开发框架
 - 尝到了调试浏览器兼容的痛苦
 
@@ -69,7 +69,7 @@ __岗位职责：__
 - 分析并协调解决开发过程中遇到的各种问题，能够快速响应产品需求变化
 - 配合leader进行计划排期、项目设计、代码审核等工作
 
-__项目经验 ：__   
+__项目经验 ：__
 - 在Ruby on Rails中嵌入Grape作为独立的API模块
 - 对接微信公众号API
 - Redis做数据缓存
@@ -129,6 +129,24 @@ __项目经验 ：__
 - 项目中添加shipit（仿capistrano）自动化部署工具，实现项目自动化部署
 - 利用Redis对一些访问频率高，数据变化频率低的数据进行缓存
 
+> ### 2019年6月-2019年8月
+绍兴，有数派
+
+**使用技术：**
+- Ruby on Rails
+- GraphQL
+
+**岗位职责**
+- 项目线上部署
+- 根据产品需求开发客户端所需接口
+- 修复在项目更新迭代后老数据问题
+
+__项目经验 ：__
+- 利用GraphQL做API开发
+- 之前工作很少用到的Mysql查询语法
+- 利用元编程，抽象类方法，减少重复代码
+- 写测试，减少上线后不必要的bug
+
 ## 个人独立开发项目
 
 ID|项 目 名 称| 开 发 语 言| 功 能 简 述| 类别| 是否上线|
@@ -139,6 +157,7 @@ ID|项 目 名 称| 开 发 语 言| 功 能 简 述| 类别| 是否上线|
 4|[klotski](https://github.com/winterbang/klotski)|JavaScript|数字华容道小游戏|cavans|是
 5|[tom_and_jerry](https://github.com/winterbang/tom_and_jerry)|JavaScript|简单有趣的棋牌类小游戏|cavans|是
 6|[redisbox](http://www.redisbox.com)|JavaScript|Redis 图形化桌面客户端|electron|是
+7|[tom_and_jerry]|JavaScript|微信小游戏|egret（白鹭游戏引擎）|否，内测阶段
 
 ## 其它
 > ### 个人的称呼由来简述
