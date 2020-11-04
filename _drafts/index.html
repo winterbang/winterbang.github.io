@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head></head>
+  <body>
+    <div></div>
+    <p></p>
+  </body>
+  <script>
+    function getTags () {
+        var list = document.all;
+        console.log(list)
+        var list1 = document.getElementsByTagName("*"); //ES5语法，返回HTMLCollection
+        var list2 = document.querySelectorAll("*"); //ES6语法，返回nodeList
+        var tags = Array.prototype.slice.call(list1)
+        console.log(tags[0])
+        console.log(tags.map(function (item) {
+            console.log(item)
+            return item.tagName.toLowerCase()
+        }))
+      // var list1 = document.getElementsByTagName("*")
+
+    }
+    getTags()
+
+  </script>
+</html>
+

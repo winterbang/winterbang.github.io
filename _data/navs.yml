@@ -19,6 +19,9 @@
 - name:         Redisbox
   url:          http://www.redisbox.com
   external:     false
+- name:         css3drawing
+  url:          /css3drawing
+  external:     false
 - name:         关于
   url:          /about
   external:     false

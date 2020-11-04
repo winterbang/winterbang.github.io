@@ -1,0 +1,17 @@
+---
+layout: post
+title: "ruby性能提升小技巧"
+date: 2016-01-31 20:35:02 +0800
+comments: true
+categories:
+---
+
+1. 关于`+=`和`concat`
+`+=`会改变对象的`object_id`而`concat`不会，所以在存取速度上后者要快一点
+
+2. 关于Symbol符号与String字符串
+符号在内存中的`object_id`是不变的，而字符串在内存中的`object_id`是变来变去的，所以在获取速度上符号要更快些
+
+3. 关于freeze
+freeze具有不可变(immutable)的功能，freeze过的变量占用的内存空间少，速度也更快！
+

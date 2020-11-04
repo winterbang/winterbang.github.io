@@ -41,3 +41,19 @@ var ModalHelper = (function(bodyCls) {
 注意：如果在inline-block元素中添加子元素，则同级的inline-block元素将不并列展示，这时需要给inline-block元素添加`vertical-align: top;`
 
 ## 3. body如果添加height:100% 滚动会变得生硬，
+
+
+## 4. 当div的宽度为百分比时，如何设置高与宽相等
+
+```html
+div {
+  width: 20%;
+  height: 0; // 设置高为0，让padding撑起高
+  padding-bottom: 20%; /* 让div的高等于宽 */
+  border-radius: 50%;
+}
+```
+此时将padding-top/padding-bottom设置为百分比时，是基于父元素宽度，正好和width相等；在使用border-radius=50%，就实现了自适应的圆形。
+
+## 5 10个隐藏元素的方法
+https://www.sitepoint.com/hide-elements-in-css/
