@@ -17,7 +17,7 @@ gem "kramdown"
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
-  gem "jekyll-seo-tag"
+  # gem "jekyll-seo-tag"
   gem "github-pages", :git => 'https://github.com/github/pages-gem'
   # gem "jekyll-feed"
   # gem "jekyll-paginate-v2"
